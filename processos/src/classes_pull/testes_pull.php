@@ -6,6 +6,13 @@
  		$lista_processos_pull = $obj->getListaFases();
  		echo var_dump($lista_processos_pull);
 
+ 		//TESTA CLASSE TSE_PULL.php
+        //include 'classes_pull/TSE_PULL.php';
+        //$obj = new TSE_PULL('167192001');
+        //$obj->pull();
+        //$lista_processos_pull = $obj->getListaFases();
+        //echo var_dump($lista_processos_pull[0]->getNome());
+
 		//TESTA CLASSE TRE_PULL.php
 		//include 'TRE_PULL.php';
 		//$obj = new TRE_PULL('145892013');
